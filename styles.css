@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(120, 120, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa {
+    background-color: rgb(222, 229, 237);
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(222, 229, 237, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(120, 120, 120);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid ;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(120, 120, 120);
+    color: rgb(222, 229, 237);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(222, 229, 237);
+    color: rgb(120, 120, 120);
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: rgb(120, 120, 120);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background: rgba(120, 120, 120, 0.5);
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.excluir {
+    background: rgb(222, 229, 237);
+    color: rgb(120, 120, 120);
+    padding: 8px 12px;
+}
+
+.excluir:hover {
+    background: rgb(120, 120, 120);
+    color: rgb(222, 229, 237);
+}
